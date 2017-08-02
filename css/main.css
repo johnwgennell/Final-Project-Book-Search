@@ -1,0 +1,263 @@
+/**********************************
+GENERAL
+***********************************/
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 6% 5% 12px;
+}
+
+#wrapper2 {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 6% 5% 12px;
+}
+
+#wrapper3 {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 6% 5% 12px;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+img {
+  max-width: 100%;
+}
+
+h3 {
+  margin: 0 0 1em 0;
+}
+
+/**********************************
+HEADING
+***********************************/
+
+header {
+  float: left;
+  margin: 0 0 30px 0;
+  padding: 5px 0 10px 0;
+  width: 100%;
+}
+
+#logo {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Changa One', sans-serif;
+  margin: 20px 0;
+  font-size: 1.75em;
+  font-weight: normal;
+  line-height: 0.8em;
+}
+
+h2 {
+  font-size: 1em !important;
+  margin: -5px 0 10px;
+  font-weight: normal;
+  color: #999 !important;
+}
+
+/**********************************
+NAVIGATION
+***********************************/
+
+nav {
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  font-weight: 800;
+  padding: 15px 10px;
+}
+
+/**********************************
+FOOTER
+***********************************/
+
+#wrapper3 footer {
+  padding-top: 10%;
+}
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  color: #ccc;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px 9px;
+}
+
+/**********************************
+FORM
+***********************************/
+
+.submit {
+    background-color: #49c593;
+    border: 2px solid #49c593;
+    color: #fff;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 5px 0 0 0;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 0;
+}
+
+.submit:hover {
+    background-color: #f9fffc;
+    color: #999;
+    border-radius: 0;
+}
+
+input {
+    border-width: 1px;
+    border-color: #999;
+    border-radius: 2px;
+}
+
+/**********************************
+BUTTONS
+***********************************/
+
+.button-primary {
+    background-color: #49c593;
+    border: 2px solid #49c593;
+    color: #fff;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 5px 0 0 0;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 0;
+}
+
+.button-primary:hover {
+    background-color: #f9fffc;
+    color: #999;
+    border-radius: 0;
+}
+
+
+.button {
+    background-color: #49c593;
+    border: 2px solid #49c593;
+    color: #fff;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 5px 0 0 0;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 0;
+}
+
+.button:hover {
+    background-color: #f9fffc;
+    color: #999;
+    border-radius: 0;
+}
+
+/**********************************
+BOOK RESULTS
+***********************************/
+
+/*JavaScript created items*/
+.item {
+  height:250px;
+  padding-top:20px;
+  border-bottom:1px solid gray;
+}
+.item img {
+  width: 128px;
+  height: 200px;
+  float: right;
+}
+
+div#results {
+  padding-top: 40px;
+}
+
+/**********************************
+COLORS
+***********************************/
+
+/* site body */
+body {
+  background-color: #fff;
+  color: #999;
+}
+
+/* green header */
+header {
+  background: #49c593;
+  border-color: #59c197;
+}
+
+/* nav background on mobile */
+nav {
+  background: #49c593;
+}
+
+/* logo text */
+h1 {
+  color: #fff;
+}
+
+/* links */
+a {
+  color: #49c593;
+}
+
+/* nav link */
+nav a, nav a:visited {
+  color: #fff;
+}
+
+/* selected nav link */
+nav a.selected, nav a:hover {
+  color: #32673f;
+}
+
+/**********************************
+===================================
+***********************************/

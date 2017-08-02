@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Google Book Lookup | Beta</title>
+    <link href='https://fonts.googleapis.com/css?family=Changa+One|Open+Sans:400italic,700italic,400,700,800' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" href="images/book-open-flat.png" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <header>
+      <a href="index.html" id="logo">
+        <h1>Google Books Lookup</h1>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="https://developers.google.com/books/docs/overview" target="_blank">Developer Docs</a></li>
+          <li><a href="https://johnwgennell.com/" target="_blank">My Website</a></li>
+          <li><a href="https://github.com/johnwgennell/Final-Project-Book-Search.git" target="_blank">Books Lookup Github</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="wrapper">
+      <section id="primary">
+        <h3>Book Lookup</h3>
+        <form id="book_form">
+            <input type="text" id="search" class="required" placeholder="Enter title or author" autofocus><br>
+            <input type="submit" value="Submit" class="submit" id="submit">
+        </form>
+      </section>
+      <section id="secondary">
+        <h3>Lookup Instructions</h3>
+        <p>Please type in the name of the author or the book title you are looking for, and we will let you know if Google Books has it!</p>
+      </section>
+    </div>
+    <div id="wrapper2">
+	    <div id="results"></div> 
+    <div id="wrapper3">
+      <footer>
+        <a href="http://twitter.com/thickwithcolour"><img src="images/twitter-wrap.png" alt="Twitter Logo" class="social-icon"></a>
+        <a href="http://facebook.com/johngennell"><img src="images/facebook-wrap.png" alt="Facebook Logo" class="social-icon"></a>
+        <p>&copy; 2017 John Gennell.</p>
+      </footer>
+    </div>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+      <script src="js/jquery.js" type="text/javascript" charset="utf-8" async defer></script>
+      <script src="js/book_app.js" type="text/javascript" charset="utf-8" async defer></script>
+  </body>
+</html>
